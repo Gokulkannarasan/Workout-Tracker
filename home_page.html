@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Tracker</title>
+    <link rel="stylesheet" href="page_style.css">
+</head>
+<body onload="checkLogin()">
+
+    <nav>
+        <h1>Workout Tracker 🏋️</h1>
+        <button onclick="logout()" class="logout">Logout</button>  
+        <button id="darkModeToggle" class="togbut">Theme☀️</button>
+    </nav>
+
+    <main>
+        <section id="workout_form">
+            <h2>Log your workout 💪</h2>
+            <input type="text" placeholder="Exercise name" id="exercise" class="linput">
+            <input type="number" id="duration" placeholder="Duration (mins)" class="linput">
+            <input type="date" id="date" class="linput">
+            <button id="addWorkout">Add workout</button>
+        </section>
+
+        <section id="workout-list">
+            <h2>Workout history 🕧</h2>
+            <ul id="workouts"></ul>
+        </section>
+
+        <section id="stats">
+            <h2>Statistics</h2>
+            <p>Total workouts: <span id="totalWorkouts">0</span></p>
+            <p>Total Duration: <span id="totalDuration">0</span> mins</p>
+            <canvas id="workoutchart"></canvas>
+        </section>
+    </main>
+
+    <!-- ✅ Load Scripts in Correct Order -->
+    <script src="auth.js" type="module"></script> 
+    <script src="interaction.js" type="module"></script> 
+
+</body>
+</html>

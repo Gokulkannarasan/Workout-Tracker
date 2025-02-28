@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="page_style.css">
+    <script src="auth.js" type="module"></script> <!-- ✅ Fixed: Now loaded as a module -->
+</head>
+<body>
+    <div id="con_1">
+        <h2>Login</h2>
+        <input type="email" id="loginEmail" placeholder="Enter Email" class="linput">
+        <input type="password" id="loginPassword" placeholder="Enter Password" class="linput">
+        <button onclick="login()">Login</button>
+        <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+    </div>
+</body>
+</html>
