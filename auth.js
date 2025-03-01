@@ -6,7 +6,7 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/10.7.1/firebase
 
 // Firebase Configuration
 const firebaseConfig = {
-    apiKey: "",
+    apiKey: import.meta.env.GOOGLE_API_KEY,
     authDomain: "workout-tracker-a98ac.firebaseapp.com",
     projectId: "workout-tracker-a98ac",
     storageBucket: "workout-tracker-a98ac.appspot.com",
