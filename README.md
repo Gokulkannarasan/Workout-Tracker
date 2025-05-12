@@ -38,6 +38,7 @@ This is a simple web-based workout tracker application built with HTML, CSS, Jav
     * Use the logout button to log out of your account.
 
 ## Workout tracker home page
-![Screenshot (186)](https://github.com/user-attachments/assets/96226009-43b5-45bf-a541-ba888a8e076c)
+![Screenshot (223)](https://github.com/user-attachments/assets/1eb506cc-7c19-4cb6-8664-ab4690e44471)
+
 
   
